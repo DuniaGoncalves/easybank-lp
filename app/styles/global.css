@@ -1,0 +1,12 @@
+body{
+  font-size: 18px;
+}
+
+.hero {
+  background-image: url('/../images/bg-intro-desktop.svg');
+}
+
+.full-width {
+	left: 50%;
+	position: absolute;
+}

@@ -1,4 +1,3 @@
-import { json } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -8,18 +7,15 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+import globalStyleURL from '~/styles/global.css';
 import tailwindStylesheetUrl from "./styles/tailwind.css";
-import { getUser } from "./session.server";
 
 export const links = () => {
-  return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
+  return [
+    { rel: "stylesheet", href: tailwindStylesheetUrl }, 
+    { rel: 'stylesheet', href: globalStyleURL }, 
+  ];
 };
-
-export async function loader({ request }) {
-  return json({
-    user: await getUser(request),
-  });
-}
 
 export default function App() {
   return (
