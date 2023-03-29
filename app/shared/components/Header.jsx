@@ -9,11 +9,11 @@ export default function header() {
         <Link to={"/"} prefetch="none">
           <img src="../../images/logo.svg" alt="logo" />
         </Link>
-        <Link to="/">Home</Link>{" "}
-        <Link to="/about">About</Link>{" "}
-        <Link to="/contact">Contact</Link>{" "}
-        <Link to="/blog">Blog</Link>{" "}
-        <Link to="/about">Careers</Link>{" "}
+        <Link className="text-zinc-400" to="/">Home</Link>{" "}
+        <Link className="text-zinc-400"to="/about">About</Link>{" "}
+        <Link className="text-zinc-400"to="/contact">Contact</Link>{" "}
+        <Link className="text-zinc-400" to="/blog">Blog</Link>{" "}
+        <Link className="text-zinc-400" to="/about">Careers</Link>{" "}
         <button>Request Invite</button>
       </nav>
     </header>
