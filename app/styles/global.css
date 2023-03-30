@@ -4,9 +4,10 @@ body{
 
 .hero {
   background-image: url('/../images/bg-intro-desktop.svg');
+  min-height: 50rem;
 }
 
-.full-width {
+.pop-out {
 	left: 50%;
 	position: absolute;
 }
