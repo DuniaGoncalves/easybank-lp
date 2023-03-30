@@ -2,12 +2,21 @@ body{
   font-size: 18px;
 }
 
+.header {
+  z-index: 3;
+  position: relative;
+  height: 4.5rem
+}
+
 .hero {
   background-image: url('/../images/bg-intro-desktop.svg');
-  min-height: 50rem;
+  min-height: 35rem;
 }
 
 .pop-out {
-	left: 50%;
-	position: absolute;
+  position: absolute;
+  z-index: 2;
+  top: -6.3125rem;
+  left: 65rem;
+  height: 47rem;
 }

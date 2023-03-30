@@ -1,10 +1,10 @@
 import Button from "./Button";
 
-export default function header() {
+export default function Header() {
   return (
-    <header className="flex justify-between my-4 mx-8">
-      <img className="h-8 w-40" src="../../images/logo.svg" alt="logo" />
-      <nav className="flex sm:justify-center space-x-4">
+    <header className="header flex justify-between py-4 px-8 bg-white">
+      <img className="h-6 w-32 my-2" src="../../images/logo.svg" alt="logo" />
+      <nav className="flex justify-center space-x-4">
         {[
           ['Home', '/'],
           ['About', '/about'],
