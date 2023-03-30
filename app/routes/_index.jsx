@@ -8,7 +8,7 @@ export const meta = () => [{ title: "Frontend Mentor | Easybank landing page" }]
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+    <div className="mx-auto" style={{ fontFamily: "Public Sans, sans-serif", lineHeight: "1.4" }}>
       <Header />
       <main className="relative min-h-screen bg-white sm:flex flex-col sm:items-center sm:justify-center md:flex flex-row">
         <Hero />
