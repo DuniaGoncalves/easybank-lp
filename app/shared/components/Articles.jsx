@@ -2,6 +2,7 @@
 const blog = [
   {
     image: '../../images/image-currency.jpg',
+    imageAlt: 'Currency from various countries',
     author: 'By Claire Robinson',
     title: 'Receive money in any currency with no fees',
     content:
@@ -9,6 +10,7 @@ const blog = [
   },
   {
     image:'../../images/image-restaurant.jpg',
+    imageAlt: 'Fancy plate setting which includes raw salmon, micro greens and puff pastry',
     author: 'By Wilson Hutton',
     title: 'Treat yourself without worrying about money',
     content:
@@ -16,6 +18,7 @@ const blog = [
   },
   {
     image: '../../images/image-plane.jpg',
+    imageAlt: 'View from an airplane window of the the plan\'s wing, pillowy clouds and a rising sun',
     author: 'By Wilson Hutton',
     title: 'Take your Easybank card wherever you go',
     content:
@@ -23,6 +26,7 @@ const blog = [
   },
   {
     image: '../../images/image-confetti.jpg',
+    imageAlt: 'Rainbow confetti falling with a teal background',
     author: 'By Claire Robinson',
     title: 'Our invite-only Beta accounts are now live!',
     content:
@@ -37,7 +41,7 @@ export default function Articles() {
       <div className='flex flex-row justify-around mx-36 my-20'> 
         {blog.map((post) => (
           <article key={post.title} className="w-3/12 px-10">
-            <img src={post.image} alt='article image'/>
+            <img src={post.image} alt={post.imageAlt}/>
             <div className="bg-white pb-10 pt-2 px-10">
               <span className="mb-2 text-xs text-gray-500">{post.author}</span>
               <h5 className="mb-2 text-sm font-medium text-gray-900">{post.title}</h5>
