@@ -21,6 +21,24 @@ body{
 @media only screen and (min-width: 768px) {
     .header nav button {
       display: block;
+      margin-left: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    .header nav button {
+      margin-left: 10rem !important;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .header nav button {
+      margin-left: 20rem !important;
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .header nav button {
       margin-left: 30rem !important;
     }
 }
