@@ -8,6 +8,23 @@ body{
   height: 4.5rem
 }
 
+.header nav button {
+  display: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15rem;
+  right: 5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .header nav button {
+      display: block;
+      margin-left: 30rem !important;
+    }
+}
+
 .hero {
   background-image: url('/../images/bg-intro-desktop.svg');
   min-height: 35rem;
