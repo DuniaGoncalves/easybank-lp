@@ -10,7 +10,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned/revisited](#what-i-learned-revisited)
+  - [What I learned/revisited](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
 
@@ -27,9 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./screenshot.jpg)
-![Mobile](./screenshot.jpg)
-![Modal](./screenshot.jpg)
+<img src="https://user-images.githubusercontent.com/20430905/231049030-4d84259b-4349-4f27-aa5e-e647c0461f51.png" width="600" height="1000" />
+<img src="https://user-images.githubusercontent.com/20430905/231049082-128b6c77-7f3e-4c8e-885d-23c9400c3bbc.png" width="200" height="1600" /><img src="https://user-images.githubusercontent.com/20430905/231049091-6ca22249-12ec-459c-9a1a-5f3afa0790ce.png" width="200" height="400" />
+
 
 ### Links
 
@@ -52,7 +52,7 @@ Write the code: Begin coding the component, following the architecture and desig
 - [Remix](https://remix.run/) - JS library
 - [TailwindCSS](https://tailwindcss.com/) - For styles
 
-### What I learned/revisited
+### What I learned
 
 I love mapping through similar things instead of witing the code multiple time. I do this in multiple parts of the code ie: Info Section and Article Section
 
