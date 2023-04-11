@@ -59,3 +59,26 @@ export const blog = [
       'After a lot of hard work by the whole team, we\'re excited to launch our closed beta. It\'s easy to request an invite through the site ...',
   },
 ]
+
+export const social = [
+  {
+    image: '../../images/icon-facebook.svg',
+    imageAlt: 'facebook logo',
+  },
+  {
+    image: '../../images/icon-youtube.svg',
+    imageAlt: 'youtube logo',
+  },
+  {
+    image: '../../images/icon-twitter.svg',
+    imageAlt: 'twitter logo',
+  },
+  {
+    image: '../../images/icon-pinterest.svg',
+    imageAlt: 'pinterest logo',
+  },
+  {
+    image: '../../images/icon-instagram.svg',
+    imageAlt: 'instagram logo',
+  },
+]
