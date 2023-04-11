@@ -8,7 +8,7 @@ import {
 } from "@remix-run/react";
 
 import globalStyleURL from '~/styles/global.css';
-import tailwindStylesheetUrl from "./styles/tailwind.css";
+import tailwindStylesheetUrl from "~/styles/tailwind.css";
 
 export const links = () => {
   return [
