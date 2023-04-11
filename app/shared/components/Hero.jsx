@@ -21,8 +21,8 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section className="hero flex flex-col md:flex-row h-auto md:h-96 w-full bg-auto bg-no-repeat bg-bottom-10rem bg-right-10rem bg-slate-50">
-      <div className="m-auto md:w-1/3 px-4 md:px-8 text-center md:text-left md:ml-36 lg:ml-72">
+    <section className="hero flex flex-col flex-col-reverse md:flex-row h-auto w-full bg-slate-50">
+      <div className="mt-96 mb-20 md:m-20 md:w-1/3 px-4 text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-medium text-slate-900 mb-4">Next generation digital banking</h1>
         <p className="mb-6 text-zinc-400">
           Take your financial life online. Your Easybank account will be a one-stop-shop 
@@ -30,8 +30,8 @@ export default function Hero() {
         </p>
         <Button />
       </div>
-      <div className="w-full md:w-1/2 flex justify-center items-center">
-        <img className="w-4/5 md:w-full mx-auto md:mx-0" src="../../images/image-mockups.png" alt="" />
+      <div className="pop-out w-full md:w-1/2 flex justify-center items-center">
+        <img className="mx-auto w-80 md:w-9/12 md:mx-0" src="../../images/image-mockups.png" alt="" />
       </div>
     </section>
   );
