@@ -12,12 +12,6 @@ body{
   display: none;
 }
 
-.close-btn {
-  position: absolute;
-  top: 15rem;
-  right: 5rem;
-}
-
 @media only screen and (min-width: 768px) {
     .header nav button {
       display: block;
