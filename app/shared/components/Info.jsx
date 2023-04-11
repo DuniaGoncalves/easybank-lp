@@ -49,9 +49,9 @@ const bankingOptions = [
 export default function Info() {
   return (
     <section className="bg-slate-100 h-full w-full">
-      <div className="px-6 md:ml-36 md:mt-36 md:w-1/3">
-        <h2 className="text-4xl font-normal text-slate-900 text-left mb-4">Why choose Easybank?</h2>
-        <p className="text-zinc-400">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+      <div className="px-6 md:ml-36 pt-20 md:w-1/3">
+        <h2 className="text-4xl font-normal text-slate-900 text-center md:text-left mb-4">Why choose Easybank?</h2>
+        <p className="text-center md:text-left text-zinc-400">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
       </div>
       <div className="flex flex-col md:flex-row justify-around px-6 md:mx-36 md:my-20">
         {bankingOptions.map((option) => (
